@@ -45,22 +45,27 @@
           float: left;
           list-style: none;
           padding: 5px;
-          margin: 5px;
-          border: 1px solid #000;
+          margin: 30px;
+          border: 7px solid #000;
         }
+   .active {
+     position: relative;
+     top: 5px;
+     left: 7px;
+   }
         .parrent {
           background: blue;
         }
     .box1 {
           position: absolute;
-          top: 250px;
+          top: 300px;
           left: 45px;
           background: green;
             z-index: 1;
     }
     .box2 {
           position: absolute;
-          top: 265px;
+          top: 315px;
           left: 55px;
           background: white;
           z-index: 2;
@@ -78,7 +83,7 @@
     <ul class="menu">
       <li>Пункт 1</li>
       <li>Пункт 2</li>
-      <li>Пункт 3</li>
+      <li class="active">Пункт 3</li>
       <li>Пункт 4</li>
       <li>Пункт 5</li>
     </ul>
@@ -94,4 +99,3 @@
 </div>
  </body>
 </html>
-
