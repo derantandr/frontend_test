@@ -4,15 +4,92 @@
    <meta charset="utf-8">
    <title>First File Commit</title>
    <style>
-    h1 {color: red; background: yellow; text-overflow: clip;}
+   * {
+     margin: 0;
+     padding: 0;
+   }
+   body {
+     background-image: url(http://st.gde-fon.com/wallpapers_original/655991_zakat_more_volnyi_peyzaj_4000x3000_www.Gde-Fon.com.jpg);
+   }
+   .header {
+     background-color: red;
+   }
+   .sidebar {
+     background-color: green;
+     float: left;
+     width: 30%;
+   }
+   .news {
+      float: left;
+      background-color: black;
+      color: white;
+      width: 20%;
+   }
+   .content {
+     background-color: blue;
+     float: left;
+     width: 50%;
+   }
+   .footer {
+     clear: both;
+     background-color: grey;
+   }
+
+   .menu {
+     position: relative;
+     overflow: hidden;
+     background-color: yellow;
+
+   }
+   .menu li{
+          float: left;
+          list-style: none;
+          padding: 5px;
+          margin: 5px;
+          border: 1px solid #000;
+        }
+        .parrent {
+          background: blue;
+        }
+    .box1 {
+          position: absolute;
+          top: 250px;
+          left: 45px;
+          background: green;
+            z-index: 1;
+    }
+    .box2 {
+          position: absolute;
+          top: 265px;
+          left: 55px;
+          background: white;
+          z-index: 2;
+    }
    </style>
  </head>
  <body>
-   <h1>Hellow World!</h1>
-     <h2>My first file</h2>
-      <h3>Let's go!</h3>
-      <div class="header">
-        <h2>Block Element<h2>
-      </div>
+   <h2>Структура через float и очистка</h2>
+    <div class="header">HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER </div>
+    <div class="sidebar">SIDEBAR SIDEBAR SIDEBAR SIDEBAR SIDEBAR </div>
+    <div class="content">CONTETNT CONTETNT CONTETNT CONTETNT CONTETNT CONTETNT CONTETNT CONTETNT CONTETNT CONTETNT CONTETNT CONTETNT CONTETNT CONTETNT CONTETNT CONTETNT </div>
+    <div class="news">NEWS NEWS NEWS NEWS NEWS NEWS NEWS NEWS NEWS NEWS NEWS NEWS NEWS NEWS NEWS NEWS NEWS NEWS NEWS NEWS NEWS NEWS NEWS NEWS NEWS </div>
+    <div class="footer">FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER </div>
+    </div>
+    <ul class="menu">
+      <li>Пункт 1</li>
+      <li>Пункт 2</li>
+      <li>Пункт 3</li>
+      <li>Пункт 4</li>
+      <li>Пункт 5</li>
+    </ul>
+<h2>Позиционирование</h2>
+<div class="parrent">
+  <p>  История о том, как снимали фильм, где герои отдыхали на пляже, потом пришёл антагонист, избил протагонистов, сбросил их в бассейн, и что из этого получилось.&copy;История  История о том, как снимали фильм, где герои отдыхали на пляже, потом пришёл антагонист, избил протагонистов, сбросил их в бассейн, и что из этого получилось.&copy;История  История о том, как снимали фильм, где герои отдыхали на пляже, потом пришёл антагонист, избил протагонистов, сбросил их в бассейн, и что из этого получилось.&copy;История  История о том, как снимали фильм, где герои отдыхали на пляже, потом пришёл антагонист, избил протагонистов, сбросил их в бассейн, и что из этого получилось.&copy;ИсторияИстория о том, как снимали фильм, где герои отдыхали на пляже, потом пришёл антагонист, избил протагонистов, сбросил их в бассейн, и что из этого получилось.&copy;</p>
+  <div class="box1">
+  История о том, как снимали фильм, где герои отдыхали на пляже, потом пришёл антагонист, избил протагонистов, сбросил их в бассейн, и что из этого получилось.&copy;История о том, как снимали фильм, где герои отдыхали на пляже, потом пришёл антагонист, избил протагонистов, сбросил их в бассейн, и что из этого получилось.&copy;
+  </div>
+  <div class="box2">
+  История о том, как снимали фильм, где герои отдыхали на пляже, потом пришёл антагонист, избил протагонистов, сбросил их в бассейн, и что из этого получилось.&copy;История о том, как снимали фильм, где герои отдыхали на пляже, потом пришёл антагонист, избил протагонистов, сбросил их в бассейн, и что из этого получилось.&copy;
+  </div>
+</div>
  </body>
-</html>
